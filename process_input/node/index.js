@@ -22,5 +22,12 @@ rl.on('line', line=>{
 const processLine = (lineNumber, line)=>{
     //Here should call the function which process the line and return
     //result to be printed in 'Case #' format
-    return line;
+    return main(lineNumber, line);
+}
+
+
+/********************** */
+
+let main = ()=>{
+    //Solve your problem
 }
